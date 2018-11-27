@@ -5,7 +5,7 @@ tags: HTTP
 ---
 HTTP_(HyperText Transfer Protocol)_ ，译为超文本传输协议，目前常用HTTP协议版本为HTTP/1.1和HTTP/1.2。
 当用户在浏览器输入网址点击回车后，大致发生了以下流程：
-![](http://ph5zfz0ki.bkt.clouddn.com/18-10-26/89192261.jpg)
+<img src="https://i.loli.net/2018/11/28/5bfd9061f3a44.png" alt="20181128024212.png" title="20181128024212.png" >
 网页地址URL格式是: 
 > _协议_ :// _域名端口_ / _路径_?_查询参数_/_锚点_  
 
@@ -20,9 +20,9 @@ HTTP请求报文分为三个部分，报文首部/空行/报文主体。
 |报文主体|应被发送的数据|例如登录密码 |
 （路径包含查询参数，但不包含锚点）
 在Chrome开发者工具中，Network下可以查看请求报文首部和响应报文首部。
-![](http://ph5zfz0ki.bkt.clouddn.com/18-10-26/96534339.jpg)
+<img src="https://i.loli.net/2018/11/28/5bfd90683aac8.png" alt="20181128024239.png" title="20181128024239.png" width="50%" height="50%">
 点击`view source`可以得到如下显示
-![](http://ph5zfz0ki.bkt.clouddn.com/18-10-26/16194378.jpg)
+<img src="https://i.loli.net/2018/11/28/5bfd90686cde5.png" alt="20181128024146.png" title="20181128024146.png" width="50%" height="50%">
 ## HTTP请求方法
 HTTP的请求动作方法有以下几种
 

@@ -46,6 +46,7 @@ CSS中，进行水平居中是相对比较容易的。
 ================
 #### Flex布局居中
 主流方式，广泛用于PC端和移动端
+
 ```html
 .父元素 {
         display: flex;
@@ -53,8 +54,10 @@ CSS中，进行水平居中是相对比较容易的。
         justify-content: center 
         }
 ``` 
+
 #### grid布局居中
 非主流，未来可能取代flex的用法，兼容性待提高
+
 ```html
 .父元素{
     display: grid;
