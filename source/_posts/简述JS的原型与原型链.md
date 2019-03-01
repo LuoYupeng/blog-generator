@@ -51,9 +51,11 @@ String.prototype.__proto__ === Object.prototype //true
 Object.prototype.__proto__ === null //true
 ```
 
-```
+
+
 ![WX20181221-034313@2x.png](https://i.loli.net/2018/12/21/5c1bf11d60b60.png)
-```
+
+
 
 因为Number，String，Object是Function的实例，所以:
 
@@ -80,9 +82,12 @@ Object.prototype.__proto__ === null //true
 
 参考文献：
 
+[「每日一题」什么是 JS 原型链？](https://zhuanlan.zhihu.com/p/23090041)
+
 [白话原型和原型链](https://juejin.im/post/599d69fc6fb9a0248f4a7b31)
 
 [浅谈JS原型和原型链](https://zhuanlan.zhihu.com/p/23026595)
 
 [深刻理解JavaScript基于原型的面向对象](https://www.iteye.com/topic/1126635)
 
+[再谈javascriptjs原型与原型链及继承相关问题](https://zhuanlan.zhihu.com/p/44795802)
