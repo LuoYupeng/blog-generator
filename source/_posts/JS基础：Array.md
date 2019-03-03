@@ -53,7 +53,7 @@ function的`arguments`对象，还有`getElementsByTagName`、`ele.childNodes`�
     1:18,  
     2:"文字文字", 
     length:3  });  
-  //["lk", 12,"文字文字"] 
+  //["kk", 18,"文字文字"] 
   ```
 
 ## 数组属性
@@ -105,7 +105,7 @@ forEach(['a','b','c'],function(value,key){
 //c 2
 ```
 
-####Array.prototype.sort()
+#### Array.prototype.sort()
 
 `sort() `方法用原地算法对数组的元素进行排序，并返回数组。
 
@@ -182,9 +182,10 @@ a.reduce(function(arr,n){
     return arr
 },0)                         
 //25
+
 ```
 
-## 参考文献：
+## 参考文献
 
 [MDN—JavaScript的标准库Array](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
