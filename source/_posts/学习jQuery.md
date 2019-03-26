@@ -120,8 +120,6 @@ nodes.addClass = function (className) {
                 for (let i = 0; i < nodes.length; i++) {
                   nodes[i].classList.add(className)
                 }
-              })
-            }
 ```
 
 
@@ -161,13 +159,13 @@ window.jQuery = function (nodeOrSelector) {
                 length: 1
               }
             }
+  
             nodes.addClass = function (className) {
                 for (let i = 0; i < nodes.length; i++) {
                   nodes[i].classList.add(className)
                 }
-              })
-            }
-            nodes.Text = function (text) { 
+            
+            nodes.setText = function (text) { 
               if(text === undefined){
                 var texts = []
                 for(i =0;i<nodes.length; i++){
