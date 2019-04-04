@@ -115,21 +115,7 @@ myButton.addEventListener('click',(e) => {
 2. 优化传参
 
 ```js
-window.jQuery.ajax = function (options) {
-    //允许传两个参数
-    let url
-    if(arguments.length ===1){
-        url = options.url
-    }else if(arguments.length ===2){
-        url = arguments[0]
-        options = arguments[1]
-    }
-    let method = options.method
-    let body = options.body
-    let successFn = options.successFn
-    let failFn = options.failFn
-    let headers = options.headers
-    let request = new XMLHttpRequest()
+window.jQuery.ajax = function ({url, method, body, headers,successFn,failFn}) {
     request.open(method,url) //配置request 请求第一部分
     for(let key in headers){ //遍历设置多个header
         let value = headers[key]
